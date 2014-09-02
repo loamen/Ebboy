@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebboy.Core", "Libraries\Ebboy.Core\Ebboy.Core.csproj", "{7E2EFED2-4E69-41E5-A0EC-ED28D871FB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{8C7EEA8D-B27E-4C6D-8090-A64C2B73EF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebboy.Data", "Libraries\Ebboy.Data\Ebboy.Data.csproj", "{8E7E6C68-C8B7-4530-AF52-F8178A264783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebboy.Services", "Libraries\Ebboy.Services\Ebboy.Services.csproj", "{D8F83AE3-F75A-4487-B070-4E8D74279DFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3604876C-5A0C-499C-B8CA-1475F95631CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebboy.Web.Framework", "Presentation\Ebboy.Web.Framework\Ebboy.Web.Framework.csproj", "{D3B88929-D19F-45C9-AEF4-58476CCC031E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{38835D88-4211-45F7-93F3-71B60006F5BE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E2EFED2-4E69-41E5-A0EC-ED28D871FB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2EFED2-4E69-41E5-A0EC-ED28D871FB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2EFED2-4E69-41E5-A0EC-ED28D871FB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2EFED2-4E69-41E5-A0EC-ED28D871FB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7E6C68-C8B7-4530-AF52-F8178A264783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7E6C68-C8B7-4530-AF52-F8178A264783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7E6C68-C8B7-4530-AF52-F8178A264783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7E6C68-C8B7-4530-AF52-F8178A264783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F83AE3-F75A-4487-B070-4E8D74279DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F83AE3-F75A-4487-B070-4E8D74279DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F83AE3-F75A-4487-B070-4E8D74279DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F83AE3-F75A-4487-B070-4E8D74279DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B88929-D19F-45C9-AEF4-58476CCC031E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B88929-D19F-45C9-AEF4-58476CCC031E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B88929-D19F-45C9-AEF4-58476CCC031E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B88929-D19F-45C9-AEF4-58476CCC031E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E2EFED2-4E69-41E5-A0EC-ED28D871FB4A} = {8C7EEA8D-B27E-4C6D-8090-A64C2B73EF40}
+		{8E7E6C68-C8B7-4530-AF52-F8178A264783} = {8C7EEA8D-B27E-4C6D-8090-A64C2B73EF40}
+		{D8F83AE3-F75A-4487-B070-4E8D74279DFC} = {8C7EEA8D-B27E-4C6D-8090-A64C2B73EF40}
+		{D3B88929-D19F-45C9-AEF4-58476CCC031E} = {3604876C-5A0C-499C-B8CA-1475F95631CA}
+	EndGlobalSection
+EndGlobal
